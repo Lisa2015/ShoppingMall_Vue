@@ -2,8 +2,6 @@
 
 **简介：**
 fork from（https://github.com/gjincai/vue-node-proj）
-原项目只是很简单的几个静态页面。
-
 ## 代码目录说明：
 
 ```
