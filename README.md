@@ -2,7 +2,7 @@
 my first project of learning vue-node
 
 **简介：**
-
+fork自github上面的vue项目，原项目只是很简单的几个静态页面。
 
 ## 代码目录说明：
 
