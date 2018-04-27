@@ -1,7 +1,7 @@
 # ShoppingMall_Vue
 
 **简介：**
-fork form（https://github.com/gjincai/vue-node-proj）
+fork from（https://github.com/gjincai/vue-node-proj）
 原项目只是很简单的几个静态页面。
 
 ## 代码目录说明：
