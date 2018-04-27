@@ -76,9 +76,4 @@ localhost:8080
 ## 相关学习笔记
 [express+mongoose 实现简易后台数据接口](http://gjincai.github.io/2017/07/26/express-mongoose-%E5%AE%9E%E7%8E%B0%E7%AE%80%E6%98%93%E5%90%8E%E5%8F%B0%E6%95%B0%E6%8D%AE%E6%8E%A5%E5%8F%A3/)
 
-## 效果呈现：
-
-<img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show1.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" /><img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show2.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" /><img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show3.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" />
-
-<img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show4.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" /><img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show5.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" /><img src="http://ohe5avf3y.bkt.clouddn.com/pro/vue-node/vue-node-proj/pro-vue-node-show6.jpeg" width="160px" height="285px" style="display:inline-block;margin-right:10px" />
 
