@@ -29,11 +29,11 @@ module.exports = function (app) {
       // res.writeHead('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild, x-access-token');
       // res.writeHead('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
       // res.writeHead('Access-Control-Allow-Credentials', 'true');
-      res.json({code: 600, msg:'name 不能为空！'})
+      res.json({code: 600, msg: 'name 不能为空！'})
       return
     }
     if (!req.query.pwd) {
-      res.json({code: 600, msg:'pwd 不能为空！'})
+      res.json({code: 600, msg: 'pwd 不能为空！'})
       return
     }
     db.userModel.findOne({name: req.query.name}, function(err, doc){

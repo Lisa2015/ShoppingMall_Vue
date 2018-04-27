@@ -15,16 +15,16 @@ fieldset{
 .ban{
   height: 5rem;
   text-align: center;
-  background: rgba(0,0,0,0.1);
+  background: #adf9a4;
   .uname{
     padding-top: 2rem;
     font-size: .4rem;
-    color: #555;
     span{
       display: inline-block;
       padding: 0 .8rem;
       cursor: pointer;
-      font-size: .8rem;
+      font-size: 30px;
+      font-weight: bold;
     }
   }
 }
@@ -55,7 +55,7 @@ fieldset{
   padding: 0 .5rem;
   border-bottom: 1px solid $border;
   label,input,button,p{
-    font-size: .8rem;
+    font-size: 16px;
     outline: none;
   }
   input{
@@ -69,13 +69,14 @@ fieldset{
   .btn-get{
     position: absolute;
     right: 0;
-    width: 5.2rem;
+    width: 4.2rem;
     height: 1.8rem;
     text-align: center;
     line-height: 1.8rem;
-    font-size: .8rem;
-    color: #4a90e2;
-    background-color: #ececec;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #afefaa;
+    color: #fff;
   }
 }
 .btn-div{

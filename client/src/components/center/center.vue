@@ -6,9 +6,9 @@
       <p class="uname" v-else-if="showState === 'register'"><span>注册</span></p>
       <p class="uname" v-else-if="showState === 'logining'"><span>登录</span></p>
     </div>
-    <div class="form-item">
+    <!-- <div class="form-item">
       <p class="form-tips">{{tips}}</p>
-    </div>
+    </div> -->
     <div class="cont-center" v-if="showState === 'logined'">
       <div class="item">
         <a href="javascript:;" @click="toCart">我的购物车<i>></i></a>
@@ -17,29 +17,28 @@
       </div>
       <div class="btn-div"><a href="javascript:;" class="btn-a" @click="clickLogout">退出登录</a></div>
     </div>
-
+    <!-- 注册账号 -->
     <div class="cont-register" v-else-if="showState === 'register'">
       <div class="form-item">
         <label for="mobile">手机号</label>
         <input name="mobile" type="tel" placeholder="请输入手机号" maxlength="11" v-model="dataLogin.name">
       </div>
       <div class="form-item">
-        <label for="code">验证码</label>
-        <input class="" name="code" type="tel" placeholder="请输入验证码" maxlength="6" v-model="dataLogin.code">
-        <a href="javascript:;" class="btn-get">重新获取</a>
-      </div>
-      <div class="form-item">
         <label for="password">密&nbsp;&nbsp;&nbsp;码</label>
         <input name="password" type="tel" placeholder="请输入密码" maxlength="6" v-model="dataLogin.pass">
-        <a class="btn-get" href="javascript:;">眼睛</a>
       </div>
-      <div class="btn-div"><a href="javascript:;" class="btn-a" @click="clickRegister">注册按钮</a></div>
+      <div class="form-item">
+        <label for="code">验证码</label>
+        <input class="" name="code" type="tel" placeholder="请输入验证码" maxlength="6" v-model="dataLogin.code">
+        <span href="javascript:;" class="btn-get">重新获取</span>
+      </div>
+      <div class="btn-div"><a href="javascript:;" class="btn-a" @click="clickRegister">注册</a></div>
       <fieldset class="">
         <legend>或</legend>
         <a href="javascript:;" class="" @click="toLogin">已有账号？快速登录</a>
       </fieldset>
     </div>
-
+    <!-- 登录账号 -->
     <div class="cont-login" v-else-if="showState === 'logining'">
       <div class="form-item">
         <label for="username">账号</label>
@@ -48,9 +47,9 @@
       <div class="form-item">
         <label for="password">密码</label>
         <input name="password" type="tel" placeholder="请输入密码" maxlength="6" v-model="dataLogin.pass">
-        <a class="btn-get" href="javascript:;">眼睛</a>
+        <a class="btn-get" href="javascript:;"><span class="iconfont icon-yanjing"></span></a>
       </div>
-      <div class="btn-div"><a href="javascript:;" class="btn-a" @click="clickLogin">登录按钮</a></div>
+      <div class="btn-div"><a href="javascript:;" class="btn-a" @click="clickLogin">登录</a></div>
       <fieldset class="form-fieldset">
         <legend>或</legend>
         <a href="javascript:;" class="" @click="toRegister">未有账号？免费注册</a>
@@ -58,7 +57,10 @@
     </div>
   </div>
 </template>
-
+<style scoped>
+   /*iconfont在线引用css */
+  @import url(//at.alicdn.com/t/font_526271_fkxo377glntmaemi.css);
+</style>
 <script>
   import Vue from 'vue'
   import VueRouter from 'vue-router'
