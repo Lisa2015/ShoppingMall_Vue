@@ -1,11 +1,8 @@
-# vue-node-proj
+# ShoppingMall_Vue
 my first project of learning vue-node
 
 **简介：**
 
-之前刚入门vue并做好了一个简而全的纯vue2全家桶的项目，数据都是本地 json 模拟请求的；详情请移步这里：[vue-proj-demo](https://github.com/gjincai/vue-proj-demo)
-
-为了真正做到数据库的真实存取，于是又开始入门了 node+express+mongoose 、并以此来为之前的vue页面写后台数据接口。
 
 ## 代码目录说明：
 
