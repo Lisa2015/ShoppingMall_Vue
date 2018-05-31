@@ -2,7 +2,7 @@ import Vue from 'vue'
 import router from './router/router.js'
 import store from './store/store.js'
 import axios from 'axios'
-import jquery from 'jquery'
+import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
 Vue.prototype.$http = axios

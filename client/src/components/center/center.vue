@@ -2,9 +2,9 @@
   <div class="s-center">
     <div class="ban">
       <!-- <p class="uname">用户名</p> -->
-      <p class="uname" v-if="showState === 'logined'"><span>用户：{{dataLogin.name}}</span></p>
-      <p class="uname" v-else-if="showState === 'register'"><span>注册</span></p>
-      <p class="uname" v-else-if="showState === 'logining'"><span>登录</span></p>
+      <span class="uname" v-if="showState === 'logined'"><span>用户：{{dataLogin.name}}</span></span>
+      <sapn class="uname" v-else-if="showState === 'register'"><span>注册</span></sapn>
+      <span class="uname" v-else-if="showState === 'logining'"><span>Welcome to VueShopMall!</span></span>
     </div>
     <!-- <div class="form-item">
       <p class="form-tips">{{tips}}</p>
@@ -41,11 +41,14 @@
     <!-- 登录账号 -->
     <div class="cont-login" v-else-if="showState === 'logining'">
       <div class="form-item">
-        <label for="username">账号</label>
+        <div class="row ">
+
+        </div>
+        <span for="username">账号</span>
         <input name="username" type="tel" placeholder="请输入手机号" maxlength="11" v-model="dataLogin.name">
       </div>
       <div class="form-item">
-        <label for="password">密码</label>
+        <span for="password">密码</span>
         <input name="password" type="tel" placeholder="请输入密码" maxlength="6" v-model="dataLogin.pass">
         <a class="btn-get" href="javascript:;"><span class="iconfont icon-yanjing"></span></a>
       </div>
@@ -209,5 +212,4 @@
 </script>
 
 <style lang="scss" scope>
-
 </style>

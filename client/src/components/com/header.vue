@@ -1,8 +1,16 @@
 <template>
   <div class="s-header">
-      <a class="left" @click="showSideBar" href="javascript:;">导航</a>
-      <a class="right" @click="goBack" href="javascript:;">后退</a>
-      <h4 class="center">{{headerTitle}}</h4>
+     <div class="row margin0px">
+       <div class="col-3" style="font-size:0.5rem;text-align: center;line-height: 2.2rem;">
+         <span @click="showSideBar" href="javascript:;">导航</span>
+       </div>
+       <div class="col-6 text-center">
+         <h4 class="center">{{headerTitle}}</h4>
+       </div>
+       <div class="col-3" style="font-size:0.5rem;text-align: center;line-height: 2.2rem;">
+         <span @click="goBack" href="javascript:;">后退</span>
+       </div>
+     </div>
   </div>
 </template>
 
@@ -43,28 +51,23 @@
     margin:0 auto;
     color: #fff;
     background: #282828;
-    .center,a{
-      height: 50px;
-      line-height: 50px;
-    }
-    .center{
-      position: relative;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      text-align: center;
-      color: #efefef;
-    }
-    a{
-      display: inline-block;
-      width:2rem;
-      text-align: center;
-      color:#fff;
+    .center {
+      font-size: 0.75rem;
+      line-height: 2.2rem;
     }
     .left{
       float: left;
     }
     .right{
       float: right;
+    }
+    .pd0px {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .margin0px {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
 </style>
